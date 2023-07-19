@@ -1,0 +1,63 @@
+/* shared styles */
+.orangered{
+    color: orangered;
+}
+
+/* header styles start here */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);  
+    /* margin: 10px 40px; */
+    padding: 20px 80px;
+
+}
+.gamer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header-img{
+    width: 40%;
+}
+.header-link{
+    display: flex;
+    gap: 10px;
+}
+.header-link button{
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.header-link ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+/* main section starts here */
+.play-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(239, 218, 222);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));    
+}
+.btn2{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.play-images img{
+    height: 45vh;
+}
